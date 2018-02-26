@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+feh --bg-fill ~/Pictures/Wallpapers/opencube.png &
+
+xfce4-panel &
+
+nm-applet &
+pa-applet &
+clipit &
+
+compton --config ~/.config/compton/config &
